@@ -1,0 +1,44 @@
+public class Car {
+  String carName;
+  int number;
+  int fuel;
+  int velocity;
+  String changeVelocity;
+  int passengers;
+
+  public Car(){
+    System.out.printIn()
+  }
+
+  public void go(){
+    velocity=0;
+  }
+  
+  public void changeVelocity(int speed){
+    velocity=velocity+speed;
+  }
+  
+  public void status(){
+    status=0;
+  }
+
+  public void passengers(){
+    passengers=0;
+  }
+}
+
+public class Bus extends Car{
+  public Bus(String carName,int passengers){
+    super.carName=carName;
+  super.passengers=passengers;
+  }
+}
+
+public class Taxi extends Car{
+  public Taxi(String carName,int km,int standardKm,int standardFee,int fee){
+    super.carName=carName;
+    super.km=km;
+    super.standardKm=standardKm;
+    
+  }
+}
